@@ -6,7 +6,7 @@ import "../interfaces/IUniswapV2Pair.sol";
 import "../Adapter.sol";
 import "../helpers/TransferHelper.sol";
 
-contract KimAdapter is BaseAdapter {
+contract PancakeAdapter is BaseAdapter {
     using SafeMath for uint256;
 
     uint256 internal constant FEE_DENOMINATOR = 1e4;
